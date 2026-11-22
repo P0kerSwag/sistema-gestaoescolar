@@ -1,0 +1,128 @@
+{
+    "classes": [
+        {
+            "id": "c1",
+            "name": "1º ano A",
+            "level": "Ensino Fundamental I",
+            "shift": "Manhã",
+            "room": "Sala 04"
+        },
+        {
+            "id": "c2",
+            "name": "2º ano B",
+            "level": "Ensino Fundamental I",
+            "shift": "Tarde",
+            "room": "Sala 07"
+        },
+        {
+            "id": "c3",
+            "name": "3º ano A",
+            "level": "Ensino Fundamental I",
+            "shift": "Manhã",
+            "room": "Sala 09"
+        }
+    ],
+    "students": [
+        {
+            "name": "Ana Clara Martins",
+            "birth": "2016-06-14",
+            "email": "ana.martins@email.com",
+            "phone": "(11) 99842-1760",
+            "classId": "c1",
+            "guardian": "Paula Martins",
+            "id": "s1"
+        },
+        {
+            "id": "s2",
+            "name": "Pedro Henrique Costa",
+            "email": "pedro.costa@email.com",
+            "birth": "2016-03-08",
+            "classId": "c1",
+            "guardian": "Rafael Costa",
+            "phone": "(11) 99230-4544"
+        },
+        {
+            "id": "s3",
+            "name": "Sofia Oliveira Lima",
+            "email": "sofia.lima@email.com",
+            "birth": "2015-09-22",
+            "classId": "c2",
+            "guardian": "Camila Oliveira",
+            "phone": "(11) 99741-8062"
+        },
+        {
+            "id": "s4",
+            "name": "Lucas Ferreira Santos",
+            "email": "lucas.santos@email.com",
+            "birth": "2014-11-02",
+            "classId": "c3",
+            "guardian": "Marcos Ferreira",
+            "phone": "(11) 99650-1371"
+        },
+        {
+            "id": "s5",
+            "name": "Isabela Rocha Alves",
+            "email": "isabela.alves@email.com",
+            "birth": "2016-01-30",
+            "classId": "c1",
+            "guardian": "Renata Rocha",
+            "phone": "(11) 99128-6253"
+        }
+    ],
+    "records": [
+        {
+            "id": "r1",
+            "studentId": "s1",
+            "subject": "Matemática",
+            "term": "1º bimestre",
+            "grade": 8.5,
+            "attendance": 96,
+            "date": "2026-03-10"
+        },
+        {
+            "id": "r2",
+            "studentId": "s1",
+            "subject": "Língua Portuguesa",
+            "term": "1º bimestre",
+            "grade": 7.8,
+            "attendance": 98,
+            "date": "2026-03-10"
+        },
+        {
+            "id": "r3",
+            "studentId": "s2",
+            "subject": "Matemática",
+            "term": "1º bimestre",
+            "grade": 4.5,
+            "attendance": 81,
+            "date": "2026-03-11"
+        },
+        {
+            "id": "r4",
+            "studentId": "s2",
+            "subject": "Ciências",
+            "term": "1º bimestre",
+            "grade": 5.5,
+            "attendance": 83,
+            "date": "2026-03-11"
+        },
+        {
+            "id": "r5",
+            "studentId": "s3",
+            "subject": "Matemática",
+            "term": "1º bimestre",
+            "grade": 6.2,
+            "attendance": 91,
+            "date": "2026-03-10"
+        },
+        {
+            "id": "r6",
+            "studentId": "s4",
+            "subject": "Língua Portuguesa",
+            "term": "1º bimestre",
+            "grade": 8.1,
+            "attendance": 95,
+            "date": "2026-03-10"
+        }
+    ]
+}
